@@ -250,3 +250,29 @@ function wait(ms) {
 })()
 
 */
+
+// Prototype Chain
+
+// const person = {
+//     name: "Sachin"
+// }
+
+// const student = Object.create(person)
+// console.log(Object.getPrototypeOf(student))
+
+// function Animal() {}
+
+// Animal.prototype.speak = function () {
+//     console.log("Animal speaks")
+// }
+
+// const dog = new Animal()
+// dog.speak()
+
+// const obj = Object.create(null)
+// const obj2 = Object.create({
+//     name: "Sachin"
+// })
+
+// console.log(obj.toString())
+// console.log(obj2.toString())
