@@ -316,3 +316,23 @@
 // const exec = throttle(log, 200)
 
 // setInterval(exec, 50)
+
+// // 1. Difference between shallow copy and deep copy in JS
+// const original = {
+//     name: "Arjun",
+//     skills: ["JS", "React"]
+// }
+
+// const copy = { ...original }
+// copy.skills.push("Node.js")
+
+// // Object Referencing
+// const userSettings = { darkMode: true }
+
+// function update(settings) {
+//     settings.darkMode = false
+// }
+
+// update(userSettings)
+
+// console.log(userSettings.darkMode) // false 😬
