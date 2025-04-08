@@ -8,15 +8,9 @@ var isSubsequence = function (s, t) {
     let j = 0
 
     while (j < t.length) {
-        if (s[i] === t[j]) {
-            i++
-            j++
-        } else {
-            j++
-        }
+        if (s[i] === t[j]) i++
+        j++
     }
 
-    if (i === s.length) return true
-
-    return false
+    return i === s.length
 }
